@@ -199,5 +199,5 @@ DispatcherFactory::add('ControllerFactory');
 Plugin::load('Crud');
 Plugin::load('ADmad/JwtAuth', []);
 Plugin::load('AkkaFacebook', ['bootstrap' => false, 'routes' => true]);
-Plugin::load('InterventionImage');
+//Plugin::load('InterventionImage');
 Plugin::load('ADmad/HybridAuth', ['bootstrap' => true, 'routes' => true]);
